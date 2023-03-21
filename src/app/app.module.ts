@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { MeubotaoComponent } from './meubotao/meubotao.component';
 import { PostsModule } from './posts/posts.module';
 import { UsersModule } from './users/users.module';
+import { TituloComponent } from './titulo/titulo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeubotaoComponent
+    MeubotaoComponent,
+    TituloComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     UsersModule,
     PostsModule
+  ],
+  exports: [
+    TituloComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

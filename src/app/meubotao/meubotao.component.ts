@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'meubotao',
@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./meubotao.component.css']
 })
 export class MeubotaoComponent {
-texto = 'olá';
+
+ 
+
 
 }
